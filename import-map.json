@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "/": "./",
+        "./": "./",
+        "path": "https://deno.land/std@0.129.0/path/mod.ts",
+        "node_process": "https://deno.land/std@0.129.0/node/process.ts"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "lint": {
+        "files": {
+            "include": [
+                "./src/",
+                "./types/"
+            ],
+            "exclude": [
+                "src/testdata/"
+            ]
+        },
+        "rules": {
+            "tags": [
+                "recommended"
+            ],
+            "include": [
+                "ban-untagged-todo"
+            ],
+            "exclude": [
+                "no-unused-vars",
+                "no-explicit-any",
+                "require-await"
+            ]
+        }
+    },
+    "importMap": "./import-map.json"
+}

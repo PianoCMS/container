@@ -1,0 +1,6 @@
+{
+    "name": "Piano Container",
+    "type": "lib",
+    "installDir": "./Piano/Core/Container/",
+    "types": "./types/"
+}
